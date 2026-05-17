@@ -14,6 +14,6 @@ el flujo completo de usuarios y habitaciones:
 
 1. **`usuario`**: Almacena la información de los clientes o administradores del sistema (ID, nombre, correo, etc.).
 2. **`habitacion`**: Contiene el inventario de las habitaciones disponibles (ID, número, tipo, precio por noche).
-3. **`reserva`**: Tabla relacional que conecta un `usuario` con una `habitacion`, guardando las fechas de entrada (`check_in`), salida (`check_out`) y el estado de la reserva.
+3. **`reserva`**: Tabla relacional que conecta un `usuario` con una `habitacion`, guardando las fechas de entrada (`check_in`) y salida (`check_out`).
 
 
